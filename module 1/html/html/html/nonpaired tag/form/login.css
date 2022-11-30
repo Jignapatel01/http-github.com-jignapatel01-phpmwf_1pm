@@ -1,21 +1,28 @@
 body{
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 h1{
     text-align: center;
-     color: brown;
-     font-size: 80px;
+    color:blue; 
+    font-size: 50px;
 }
+hr{
+    margin-top: -5px;
+    border-width: 1.5px;
+}
+
 form{
- color:chocolate;
+color:brown;
  font-size: 25px;
  font-family: Arial, Helvetica, sans-serif;
  font-style: normal;
+ margin-inline-start: 120px;
+ /* left: 50px; */
+ line-height: 50px;
 }
-button{
-    align: center;
-    background-color:mediumblue;
-    color: white;
-    font-size: 15px;
-    width: 100px;
-}
+input{
+    border-radius: 2px;
+    width: 20%;
+    height: 25px;
+    font-size: medium;
+    }
