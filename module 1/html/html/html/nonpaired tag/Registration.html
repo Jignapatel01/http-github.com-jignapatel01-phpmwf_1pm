@@ -9,7 +9,7 @@
     <script src='main.js'></script>
     <style>
         body{
-            background-color: cadetblue;
+            background-color: rgb(10, 220, 140)
         }
         legend{
             text-align: center;
@@ -17,17 +17,41 @@
             font-style: initial;
         }
         form{
-            border-radius: 5px;
+            border-radius: 8px;
             margin-top: 30px;
-            background-color:bisque;
+            background-color:tan;
             font-size: 20px;
             margin-left: 30px;
             margin-right: 30px;
-            line-height: 35px;
+            line-height: 40px;
         }
         input{
             height: 20px;
-            l
+            margin-left: 20px;   
+            width: 150px;
+        }
+        label{
+            margin-left: 50px;
+        }
+        input[type=submit]
+        {
+            margin-left: 150px;
+            width: 100px;
+        }
+        input[type=radio]
+        {
+            margin-left: 10px;
+            width: 20px;
+        }
+        input[type=checkbox]
+        {
+            margin-left: 5px;
+            width: 20px;
+        }
+        select{
+            width: 120px;
+            height: 25px;
+            text-align: center;
         }
     </style>
 </head>
@@ -36,7 +60,7 @@
         <legend >Registration Form</legend>
         <form action="Login.html" method="get">
         <label for="fnm"> First Name :</label>
-        <input type="text" name="fnm" id="" placeholder="entre name" required><br>
+        <input type="text" name="fnm" id="" placeholder="enter name" value="John" required><br>
         <label for="mnm">Middle Name :</label>
         <input type="text" name="mnm" id="" placeholder="entre middle name" required><br>
         <label for="lnm"> Last Name :</label>
@@ -47,16 +71,16 @@
         <input type="email" name="email" id="" placeholder="enter email" required><br>
         <label for="phone no">Phone No :</label>
         <input type="number" name="phone no" placeholder="entre mo.no" required><br>
-        <label for="Gender"> Gender:</label><br>
-            Female: <input type="radio" name="gender" >
-            Male: <input type="radio" name="gender">
-            Other: <input type="radio" name="gender"><br>
+        <label for="Gender"> Gender :</label> &nbsp;&nbsp;&nbsp;&nbsp; 
+            Female<input type="radio" name="gender" >
+            Male<input type="radio" name="gender">
+            Other<input type="radio" name="gender"><br>
         <label for="add"> Address :</label>
         <input type="text" name="add" id=""  required><br>
         <label for="Hobby"> Hobby :</label>
-        Reading: <input type="checkbox" name="php">    
-        Singing: <input type="checkbox" name=".net">
-        Drawing: <input type="checkbox" name="c/c++"><br>
+        Reading: <input type="checkbox" name="read">    
+        Singing: <input type="checkbox" name="sing">
+        Drawing: <input type="checkbox" name="draw"><br>
         <label for="Course"> Coures :</label>
         <select>
             <option>--select--</option>
@@ -70,8 +94,8 @@
         <label for="pincode">Pincode :</label>
         <input type="number" name="pincode" id="" ><br>
         <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-         <a href="Login.html">I am Alredy Registerd</a>
+       <input type="reset" value="Reset">
+       &nbsp;&nbsp;&nbsp;<a href="Login.html">I am Alredy Registerd</a>
         </form>
     </fieldset>
 </body>
