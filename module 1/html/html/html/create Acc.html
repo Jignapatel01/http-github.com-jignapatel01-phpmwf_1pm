@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        legend{
+            font-size: 25px;
+            color:darkgray;
+        }   
+        form{
+                background-color: azure;
+                font-size: 20px;
+                border: solid 20px brown;
+                border-radius: 10px;
+                align: center;
+                margin-right: 10px;
+                margin-left: 350px;
+                width: 600px;
+                height: 700px;
+                line-height: 30px;
+        }
+        label{
+            
+            margin-left: 40px;
+        }
+        input{
+            margin-left: 40px;
+            line-height: 20px;
+            }
+            input[type=radio]
+            { margin-left: 7px;}
+            input[type=checkbox]
+            { margin-left: 7px;}
+            input[type=submit]
+            { 
+             margin-left: 300px;
+            background-color:darkgreen;
+            width: 80px;
+            font-size: 20px;
+            border-radius: 5px;
+            height: 30px;
+            margin-top: 25px;
+            }
+            
+    </style>
+</head>
+<body bgcolor="tan">
+    
+    <!--<legend align="center" > Create Account</legend>-->
+        <form action="student detail.html" method="get">
+            <h2 align="center"> Create Account</h2>
+        <label for="Fnm"> First Name</label><br>
+         <input type="text" name="fnm" id="" placeholder="enter name" required><br>
+         <label for="lnm"> Last Name</label><BR>
+        <input type="text" name="lnm" id="" placeholder="enter last name" required><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" name="email" id="" placeholder="enter your email" required><br>
+        <label for="pwd"> Password</label><br>
+        <input type="password" name="pwd" id="" placeholder="enter password" required><br>
+        <label for="cpwd"> Confirm Password</label><br>
+        <input type="password" name="cpwd" id="" placeholder="re-enter password" required><br>
+        <label for="gender">Gender : </label>
+        Female <input type="radio" name="gender">
+        male <input type="radio" name="gender"> <br>
+        <label for="hobby"> Hobbies : </label>
+         <input type="checkbox" name="music" id="">Music
+         <input type="checkbox" name="travel" id="">Travel
+         <input type="checkbox" name="sing" id="">Sing
+         <input type="checkbox" name="sport" id="">Sports
+         <input type="checkbox" name="movie" id="">Movie
+         <br>
+         <label for="Source of Income"> Source of Income :</label>
+          <select>
+            <option> Employee</option>
+            <option> Doctor</option>
+            <option> Professor</option>
+            <option> Farmer</option>
+            <option> Business man</option>
+          </select><br>
+          <label for="Income"> Income :</label>
+          <input type="range" name="income"><input type="button" value="20K"><br>
+          <label for="profile"> Upload Profile Picture :</label><br>
+          <input type="file" name="upload file" ><br>
+          &nbsp;&nbsp;<label for="age"> Age :</label><br>
+          <input type="tel" name="age" required><br>
+          <input type="submit" value="Create"> 
+    </form>   
+</body>
+</html>
