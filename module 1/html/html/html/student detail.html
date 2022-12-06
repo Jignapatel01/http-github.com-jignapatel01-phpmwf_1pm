@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        caption{
+            font-size: 30px;
+            color:black;
+       }
+        table{
+            text-align: center;
+            font-size: 20px;
+            margin-left: 300px;
+            background-color: antiquewhite;
+            border: 5px;
+            border-style: double;
+            border-color:darkblue ;
+            line-height: 30px;
+        }
+        thead{
+            color: brown;
+        }
+        
+    </style>
+</head>
+<body bgcolor="yellowgreen">
+    <table border="solid">
+        <caption> Student Detail</caption>
+        <br>
+        <thead>
+           <tr>
+            <th> Student RGNo.</th>
+            <th> Student Name</th>
+            <th> Subject Name</th>
+            <th> Obtain Marks</th>
+            <th> Total marks</th>
+        </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3"> 01</td>
+                <td rowspan="3"> Jiya</td>
+                <td > maths </td>
+                <td> 80</td>
+                <td rowspan="3"> 180</td>
+            
+            </tr>
+            <tr>
+                <td>physics</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td> chem.</td>
+                <td>50</td>
+            </tr>
+            <tr >
+                <td rowspan="3"> 02</td>
+                <td rowspan="3"> Dhyana</td>
+                <td>maths</td>
+                <td>75</td>
+                <td rowspan="3"> 190</td>
+            </tr>
+            <tr>
+                <td> physics</td>
+                <td> 50</td>
+            </tr>
+            <tr>
+                <td> chem.</td>
+                <td> 65</td>
+            </tr>
+            <tr>
+                <td rowspan="3"> 03</td>
+                <td rowspan="3"> Aditya</td>
+                <td> maths</td>
+                <td>95</td>
+                <td rowspan="3">230</td>
+            </tr>
+            <tr>
+                <td> physics</td>
+                <td> 65</td>
+            </tr>
+            <tr>
+                <td> chem</td>
+                <td> 70</td>
+            </tr>
+            <tr>
+                <td rowspan="3"> 04</td>
+                <td rowspan="3"> Diya</td>
+                <td> maths</td>
+                <td> 70</td>
+                <td rowspan="3">170</td>
+            </tr>
+            <tr>
+                <td> physics</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td> chem</td>
+                <td> 50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5"> Total Student = 4 </td>
+            
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
