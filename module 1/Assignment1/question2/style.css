@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(85, 12, 90);
+}
+.profile-form
+{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    overflow: hidden;
+     
+    
+}
+.img-pro 
+{
+    width: 30%;
+    height: auto;
+    border-right: solid 2px lightgray;
+}
+.profile
+{
+    width: 50%;
+    height: auto;
+    border-right: solid 2px lightgray;
+    float: left;
+    margin-top: 25px;
+    
+
+}

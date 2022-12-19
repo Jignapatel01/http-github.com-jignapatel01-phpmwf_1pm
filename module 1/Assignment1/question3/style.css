@@ -1,0 +1,19 @@
+body
+{
+    background-color: wheat;
+}
+.item
+{
+ width: 49%;
+ height: 100px;
+ 
+ float:left;
+ background-color: white;
+ margin: 3px;
+ padding: 2px
+
+
+}
+p{
+    margin-left: 40%;
+}
