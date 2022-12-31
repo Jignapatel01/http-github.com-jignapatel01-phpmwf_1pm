@@ -1,0 +1,140 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    /* background-color:lightgrey; */
+    overflow-x: hidden;
+    background:url('../iamges/image1.gif') no-repeat;
+    background-size:100%;
+}
+.header
+{
+    width:100%;
+    height:auto;
+    padding:10px; 
+    position: sticky;
+    top: 0;
+    z-index: 5 !important;
+ 
+}
+.bi-inbox,.bi-person-add,.bi-cart 
+{
+    font-size: 20px !important;
+}
+.bi-facebook,.bi-twitter,.bi-whatsapp,.bi-instagram,.bi-linkedin
+{
+    /* font-size: 20px; */
+    letter-spacing: 8px;
+    margin-left: 2%;
+    
+
+}
+.social-media a 
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us a
+{
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.navbar
+{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    animation: 1s alternate pulse;
+}
+.navbar-brand
+{
+    margin: 2px;
+    margin-left: 2%;
+    font-size: 25px;
+    animation: 2s infinite zoomIn;
+}
+.navbar-link
+{
+    margin-left: 18%;
+}
+.navbar-link li
+{
+    display: inline-block;
+    padding: 5px 30px ;
+    
+}
+.navbar-link a
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+ .content
+{
+    padding-top: 2%;
+    /* width: 50%; */
+    height: auto;
+    /* animation: 3s alternate slideInDown; */
+}
+.slidbar li
+{
+    list-style-type:none;
+    padding:5px 25px;
+} 
+.slidbar li a
+{
+    text-decoration:none;
+    
+    
+}
+
+.login-heading
+{
+    padding: 0;
+    animation: 2s alternate zoomIn;
+}
+.reg-form
+{
+    width: 100%;
+    height: auto;
+    padding:8px;
+    
+    
+}
+#reg
+{
+    margin-left: 30%;
+    padding: 5px;
+    
+}
+
+.footer
+{
+    width: 100%;
+    height: auto;
+    /* padding:20px; */
+    /* text-align: center; */
+
+} 
+@media only screen and (min-width:320px) and (max-width:480px)
+
+{
+    .content , .reg-form
+    {
+        width: 80%;
+        height: auto;
+        margin-left: 8%;
+
+    }
+    .navbar-link li
+    {
+        display: block;
+    }
+
+}
+
