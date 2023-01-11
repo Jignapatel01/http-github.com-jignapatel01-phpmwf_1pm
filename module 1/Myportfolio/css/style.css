@@ -79,8 +79,33 @@ body
 {
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 8%;
-    color: rgb(0, 8, 22);
+    margin-top: 5%;
+    color: steelblue;
 }
+.cv a
+{
+    color:teal;
+}
+.form-control
+{
+   padding: 12px;
+}
+#contact
+{
+    padding: 10%;
+}
+#dwnldcv
+{
+    padding: 5px;
+    color: teal;
+    
+}
+#footer-above
+{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    
+}
+
 
 
