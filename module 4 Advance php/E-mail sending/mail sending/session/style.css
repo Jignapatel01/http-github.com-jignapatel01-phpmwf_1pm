@@ -1,0 +1,56 @@
+.body
+    {
+            width: 100%;
+            height: 768px;
+            overflow-x: hidden;
+            background: -moz-linear-gradient( left, rgb(129, 58, 0) ,gray );
+            background: -webkit-linear-gradient(left, rgb(129, 58, 0), gray );
+            background: -o-linear-gradient(to right, rgb(75, 34, 1) , gray);
+    }
+ #form {
+            margin-top: 8%;
+            align: center;
+            background-color: lightgray;
+            width: 50%;
+            padding: 25px;
+            margin-left: 25%;
+            border-radius: 20px;
+  }
+        
+ .td 
+ {
+            padding: 15px;
+ }
+        
+ .input[type="text"],
+ .input[type="password"] 
+ {
+            padding: 15px;
+            width: 350px;
+            height: 20px;
+            font-size: 20px;
+            background-color: white;
+            border: none;
+            border-radius: 15px;
+ }
+        
+ .input[type=submit] {
+            background-color: rgb(53, 83, 117);
+            font-size: 20px;
+            width: 200px;
+            height: 40px;
+            padding: 8px;
+            border-radius: 15px;
+            border: none;
+   }
+  .a {
+         font-size: 20px;
+     }
+        
+  .h2 {
+            margin-top: 5px;
+            padding: 5px;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
