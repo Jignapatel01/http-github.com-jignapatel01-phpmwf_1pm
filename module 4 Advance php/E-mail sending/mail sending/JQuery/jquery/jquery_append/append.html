@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+    <script>
+      $(document).ready(function(){
+        $("#btn").click(function(){
+            $("b").append("<b> &nbsp Pandey</b>");
+        })
+      })
+    </script>
+
+    <style>
+        .content 
+        {
+            width: 50%;
+            height: auto;
+            background-color: antiquewhite;
+            margin: auto;
+            padding: 25px;
+        }
+
+        #btn 
+        {
+            width: 180px;
+            height: auto;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            margin-top: 0%;
+        }
+
+    </style>
+</head>
+<body>
+
+   
+    <b>Brijesh kumar</b>
+    <br><br> 
+    <button type="button" id="btn">Append surname!</button>
+    
+</body>
+</html>

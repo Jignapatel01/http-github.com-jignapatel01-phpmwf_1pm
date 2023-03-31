@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+    <script>
+      $(document).ready(function(){
+        $("#btn").click(function(){
+            $(".content").remove();
+        })
+      })
+    </script>
+
+    <style>
+        .content 
+        {
+            width: 50%;
+            height: auto;
+            background-color: antiquewhite;
+            margin: auto;
+            padding: 25px;
+        }
+
+        #btn 
+        {
+            width: 180px;
+            height: auto;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            margin-left: 23%;
+            margin-top: 2%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="content">
+    <h1>Content start here</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sit incidunt alias impedit nisi distinctio ipsam quod vero omnis beatae, suscipit perspiciatis harum, animi nostrum repellendus! Eum ex voluptate officia.</p>
+    </div>
+
+    <button type="button" id="btn">Click Me!</button>
+    
+</body>
+</html>

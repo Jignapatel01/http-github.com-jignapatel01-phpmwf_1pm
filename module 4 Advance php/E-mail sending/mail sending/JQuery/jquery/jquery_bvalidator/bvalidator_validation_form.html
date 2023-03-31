@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#slider").cycle("fade");
+        })
+    </script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        #frm
+        {
+            width: 40%;
+            height: auto;
+            margin: auto;
+            background-color: aliceblue;
+            margin-top: 4%;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="frm">
+
+        <form method="post" id="frm" action="welcome.html">
+            Name : <input type="text" name="name" placeholder="Name *">
+            <br><br>
+            <input type="submit" name="sub" value="Submit"> 
+        </form>
+       
+    </div>
+</body>
+</html>
